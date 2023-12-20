@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+    // Get the container where news articles will be displayed
     const newsContainer = document.getElementById('news-container');
   
     // Replace 'YOUR_API_KEY' with your News API key
@@ -33,5 +34,4 @@ document.addEventListener('DOMContentLoaded', function () {
       `;
       return card;
     }
-  });
-  
+  });  
